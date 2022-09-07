@@ -14,7 +14,7 @@ node {
     def SF_INSTANCE_URL = env.SF_INSTANCE_URL ?: "https://login.salesforce.com"
 
    //  def toolbelt = tool 'toolbelt'
-    echo("HUB_ORG_DH "+${HUB_ORG_DH})
+    echo "HUB_ORG_DH ${HUB_ORG_DH}"
 
 
     // -------------------------------------------------------------------------
